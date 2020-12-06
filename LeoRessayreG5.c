@@ -92,6 +92,7 @@ void copieRepertoire(char *directory1,char *directory2) {
        
         currentDir = readdir(direct1);
     }
+    closedir(direct1);
 }
  
 
